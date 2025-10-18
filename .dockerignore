@@ -3,3 +3,6 @@ README.md
 .gitignore
 *.log
 node_modules
+Dockerfile
+docker-compose.yml
+nginx.conf
