@@ -148,7 +148,7 @@ Animais-Web/
 └── README.md              # Este arquivo
 ```
 
-## �🎨 Design
+## 🎨 Design
 
 O projeto utiliza uma paleta de cores natural com fundo bege (`#faf6ed`) e detalhes em amarelo (`#fb5`), criando uma atmosfera acolhedora e natural, perfeita para o tema de animais selvagens.
 
@@ -163,13 +163,13 @@ O layout utiliza CSS Grid para criar um design responsivo que se adapta a difere
 - **Headers de segurança**: Configuração via Caddy
 - **Firewall**: Network Security Groups na Azure
 
-## � Performance
+## 🔧 Performance
 
 - **Compressão**: Gzip/Zstd automático via Caddy
 - **Cache**: Headers otimizados para recursos estáticos
 - **CDN-ready**: Arquitetura preparada para CDN
 
-## �📄 Licença
+## 📄 Licença
 
 Este projeto está sob licença livre. Quase todos os direitos reservados! 😄
 
