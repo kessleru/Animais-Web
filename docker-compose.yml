@@ -1,9 +1,25 @@
 version: '3.8'
 
 services:
+  # Nginx Proxy Manager para gerenciar SSL e domínios
+  nginx-proxy-manager:
+    image: 'jc21/nginx-proxy-manager:latest'
+    container_name: nginx-proxy-manager
+    ports:
+      - '80:80'    # HTTP
+      - '443:443'  # HTTPS
+      - '81:81'    # Admin UI
+    environment:
+      DB_SQLITE_FILE: "/data/database.sqlite"
+    volumes:
+      - ./data:/data
+      - ./letsencrypt:/etc/letsencrypt
+    restart: unless-stopped
+
+  # Seu site
   animais-web:
     build: .
     container_name: animais-web
-    ports:
-      - "80:80"
+    expose:
+      - "80"
     restart: unless-stopped

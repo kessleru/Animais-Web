@@ -1,6 +1,9 @@
 # Use nginx como servidor web
 FROM nginx:alpine
 
+# Copie a configuração customizada do nginx
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
 # Copie os arquivos do site para o diretório padrão do nginx
 COPY . /usr/share/nginx/html
 
