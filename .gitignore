@@ -1,0 +1,48 @@
+# Docker volumes e dados
+caddy_data/
+caddy_config/
+
+# Logs
+*.log
+logs/
+
+# Sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs e editores
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporários
+*.tmp
+*.temp
+.cache/
+
+# Arquivos de backup
+*.bak
+*.backup
+
+# Node modules (caso adicione JS build tools no futuro)
+node_modules/
+
+# Python cache (caso mude para Django/Flask no futuro)
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+env/
+
+# Certificados locais (se fizer testes)
+*.pem
+*.key
+*.crt
