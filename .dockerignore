@@ -7,3 +7,5 @@ Dockerfile
 Dockerfile.simple
 Dockerfile.nginx
 docker-compose.yml
+nginx.conf
+get-docker.sh
