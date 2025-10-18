@@ -123,7 +123,7 @@ docker-compose up -d
 # Acessar: https://kessleru.dev
 ```
 
-## �️ Estrutura do Projeto
+## 📂 Estrutura do Projeto
 
 ```
 Animais-Web/
