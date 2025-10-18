@@ -4,5 +4,6 @@ README.md
 *.log
 node_modules
 Dockerfile
+Dockerfile.simple
+Dockerfile.nginx
 docker-compose.yml
-nginx.conf
