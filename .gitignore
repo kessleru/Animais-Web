@@ -16,7 +16,7 @@ ehthumbs.db
 Thumbs.db
 
 # IDEs e editores
-.vscode/settings.json
+.vscode/
 .idea/
 *.swp
 *.swo
@@ -46,3 +46,12 @@ env/
 *.pem
 *.key
 *.crt
+
+# Build outputs
+dist/
+build/
+
+# Environment files
+.env.local
+.env.development
+.env.production
