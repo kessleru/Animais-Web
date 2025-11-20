@@ -1,0 +1,22 @@
+{
+  "name": "animais-web",
+  "version": "1.0.0",
+  "description": "Site interativo sobre animais selvagens com navegação moderna e animações suaves.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kessleru/Animais-Web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kessleru/Animais-Web/issues"
+  },
+  "homepage": "https://github.com/kessleru/Animais-Web#readme",
+  "devDependencies": {
+    "eslint": "^9.39.1"
+  }
+}
