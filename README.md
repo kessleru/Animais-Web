@@ -105,37 +105,6 @@ Site educacional sobre animais selvagens desenvolvido com **HTML5, CSS3 e JavaSc
 
 ---
 
-## 🎨 Componentes
-
-### Tab Navigation
-Sistema de abas para alternar entre diferentes animais, exibindo descrições específicas de cada espécie.
-
-### Accordion FAQ
-Perguntas frequentes com efeito acordeão - expande/colapsa ao clicar, com transições suaves.
-
-### Modal
-Modal de login overlay com animação de entrada e fechamento por clique fora ou botão X.
-
-### Dropdown Menu
-Menu dropdown com submenu, ativado por hover no desktop e click no mobile.
-
-### Menu Mobile
-Menu hamburguer responsivo com animação de slide para dispositivos móveis.
-
-### Scroll Suave
-Navegação suave entre seções ao clicar nos links do menu.
-
-### Scroll Animação
-Elementos aparecem gradualmente conforme o usuário rola a página.
-
-### Tooltip
-Tooltips informativos que aparecem ao passar o mouse sobre elementos específicos.
-
-### Contador Animado
-Números de estatísticas que animam de 0 até o valor final quando entram na viewport.
-
----
-
 ## 📚 Aprendizados
 
 Este projeto demonstra:
@@ -157,6 +126,4 @@ Este projeto demonstra:
 ⭐ **Desenvolvido como projeto educacional em JavaScript vanilla**
 
 [![GitHub](https://img.shields.io/badge/GitHub-kessleru-181717?logo=github)](https://github.com/kessleru)
-[kessleru.dev](https://kessleru.dev)
-
 </div>
