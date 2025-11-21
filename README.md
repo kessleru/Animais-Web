@@ -1,42 +1,162 @@
 # 🦊 Animais Fantásticos
 
-Site interativo sobre animais selvagens com navegação moderna e animações suaves.
+**Site interativo sobre animais selvagens** com componentes modernos, animações suaves e integração com APIs.
 
-## 💡 Sobre
-
-Projeto educacional focado em tecnologias web fundamentais: HTML5, CSS3 (Grid/Flexbox) e JavaScript ES6+ vanilla.
-
-## ✨ Funcionalidades
-
-### Navegação e Interação
-- **Tab Navigation** - Navegação por abas entre diferentes animais
-- **Accordion** - FAQ com efeito acordeão
-- **Modal** - Modal de login interativo
-- **Dropdown Menu** - Menu dropdown interativo
-- **Menu Mobile** - Menu responsivo para dispositivos móveis
-- **Tooltip** - Tooltips informativos nos elementos
-
-### Animações e Scroll
-- **Scroll Suave** - Navegação suave entre seções
-- **Scroll Animação** - Animações ativadas ao rolar a página
-- **Anima Números** - Contador animado de estatísticas
-
-### Integração com APIs
-- **Fetch Animais** - Carrega dados de animais de uma API local
-- **Fetch Bitcoin** - Exibe cotação do Bitcoin em tempo real
-
-### Utilidades
-- **Funcionamento** - Exibe status de funcionamento baseado em horário
-- **Outside Click** - Detecta cliques fora de elementos específicos
-
-## 🛠️ Tecnologias
-
-- HTML5
-- CSS3 (Grid/Flexbox)
-- JavaScript ES6+ (Modules)
-- Fetch API
-- Mutation Observer
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ---
 
-⭐ [kessleru.dev](https://kessleru.dev)
+## 📋 Sobre o Projeto
+
+Site educacional sobre animais selvagens desenvolvido com **HTML5, CSS3 e JavaScript ES6+ vanilla**. O projeto demonstra a implementação de componentes UI modernos (tabs, accordion, modal, dropdown) sem uso de frameworks, utilizando apenas tecnologias web fundamentais com foco em boas práticas e código modular.
+
+### 🎯 Seções
+
+- **Animais**: Navegação por abas com informações sobre diferentes espécies
+- **FAQ**: Perguntas frequentes com accordion interativo
+- **Números**: Estatísticas animadas carregadas dinamicamente via API
+- **Contato**: Informações, mapa e cotação de Bitcoin em tempo real
+
+---
+
+## ✨ Funcionalidades
+
+### 🎨 Interface
+- Design responsivo mobile-first
+- Animações suaves de entrada ao scroll
+- Menu mobile com hamburguer
+- Navegação por abas (tab navigation)
+- Modal de login interativo
+- Tooltips informativos
+- Dropdown menu com submenu
+
+### ⚙️ JavaScript
+- **Arquitetura Modular**: ES6 Modules para organização e manutenibilidade
+  - `scroll-suave.js` - Navegação suave entre seções
+  - `scroll-animacao.js` - Animações ativadas ao scroll
+  - `accordion.js` - FAQ com efeito acordeão
+  - `tabnav.js` - Sistema de navegação por abas
+  - `modal.js` - Modal de login com overlay
+  - `tooltip.js` - Tooltips informativos
+  - `dropdown-menu.js` - Menu dropdown interativo
+  - `menu-mobile.js` - Menu responsivo para mobile
+  - `funciomento.js` - Status de funcionamento por horário
+  - `fetch-animais.js` - Carregamento de dados de animais
+  - `fetch-bitcoin.js` - Cotação do Bitcoin em tempo real
+  - `anima-numeros.js` - Contador animado de estatísticas
+  - `outsideclick.js` - Detecção de cliques externos
+
+### 🔌 Integração com APIs
+- **Fetch API** para carregar dados de animais (JSON local)
+- **Mutation Observer** para observar mudanças no DOM
+- **API de Cotação Bitcoin** para exibir preço em tempo real
+
+### ♿ Acessibilidade
+- Estrutura HTML semântica
+- ARIA attributes nos componentes interativos
+- Navegação por teclado funcional
+- Labels apropriados em elementos interativos
+
+---
+
+## ⚡ Performance
+
+### 📦 CSS
+- **Arquitetura modular**: 7 arquivos CSS organizados por componente
+- **CSS Grid e Flexbox** para layouts responsivos
+- **Transitions suaves** para melhor UX
+
+### 🎯 JavaScript
+- **ES6 Modules** para carregamento otimizado
+- **Event delegation** para melhor performance
+- **Lazy execution** - módulos só executam quando necessário
+- **Debounce** em eventos de scroll para reduzir processamento
+
+---
+
+## 🛠️ Tecnologias
+
+- **HTML5**: Semântico e acessível
+- **CSS3**: Grid, Flexbox, Transitions
+- **JavaScript ES6+**:
+  - Vanilla JS sem frameworks
+  - ES6 Modules (`import`/`export`) para código modular
+  - Fetch API para requisições assíncronas
+  - Mutation Observer para observar mudanças no DOM
+  - Classes e métodos modernos
+- **Git**: Controle de versão com commits semânticos
+
+---
+
+## 📱 Responsividade
+
+**Breakpoints**
+- Mobile: 320px+
+- Tablet: 768px+
+- Desktop: 1024px+
+
+**Técnicas**
+- Mobile-first approach
+- CSS Grid responsivo
+- Menu mobile com toggle
+- Imagens adaptativas
+
+---
+
+## 🎨 Componentes
+
+### Tab Navigation
+Sistema de abas para alternar entre diferentes animais, exibindo descrições específicas de cada espécie.
+
+### Accordion FAQ
+Perguntas frequentes com efeito acordeão - expande/colapsa ao clicar, com transições suaves.
+
+### Modal
+Modal de login overlay com animação de entrada e fechamento por clique fora ou botão X.
+
+### Dropdown Menu
+Menu dropdown com submenu, ativado por hover no desktop e click no mobile.
+
+### Menu Mobile
+Menu hamburguer responsivo com animação de slide para dispositivos móveis.
+
+### Scroll Suave
+Navegação suave entre seções ao clicar nos links do menu.
+
+### Scroll Animação
+Elementos aparecem gradualmente conforme o usuário rola a página.
+
+### Tooltip
+Tooltips informativos que aparecem ao passar o mouse sobre elementos específicos.
+
+### Contador Animado
+Números de estatísticas que animam de 0 até o valor final quando entram na viewport.
+
+---
+
+## 📚 Aprendizados
+
+Este projeto demonstra:
+- **Arquitetura JavaScript modular** com ES6 Modules
+- JavaScript vanilla para componentes complexos (sem jQuery ou frameworks)
+- Manipulação avançada do DOM
+- Event handling e delegation
+- Fetch API e consumo de dados JSON
+- CSS modular e organizado por componente
+- Mutation Observer para observar mudanças no DOM
+- Design patterns (Module Pattern, Observer)
+- Boas práticas de acessibilidade
+- Git workflow com commits semânticos
+
+---
+
+<div align="center">
+
+⭐ **Desenvolvido como projeto educacional em JavaScript vanilla**
+
+[![GitHub](https://img.shields.io/badge/GitHub-kessleru-181717?logo=github)](https://github.com/kessleru)
+[kessleru.dev](https://kessleru.dev)
+
+</div>
