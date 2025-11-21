@@ -157,6 +157,4 @@ Este projeto demonstra:
 ⭐ **Desenvolvido como projeto educacional em JavaScript vanilla**
 
 [![GitHub](https://img.shields.io/badge/GitHub-kessleru-181717?logo=github)](https://github.com/kessleru)
-[kessleru.dev](https://kessleru.dev)
-
 </div>
