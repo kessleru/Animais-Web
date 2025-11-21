@@ -42,7 +42,7 @@ Site educacional sobre animais selvagens desenvolvido com **HTML5, CSS3 e JavaSc
   - `tooltip.js` - Tooltips informativos
   - `dropdown-menu.js` - Menu dropdown interativo
   - `menu-mobile.js` - Menu responsivo para mobile
-  - `funciomento.js` - Status de funcionamento por horário
+  - `funcionamento.js` - Status de funcionamento por horário
   - `fetch-animais.js` - Carregamento de dados de animais
   - `fetch-bitcoin.js` - Cotação do Bitcoin em tempo real
   - `anima-numeros.js` - Contador animado de estatísticas
