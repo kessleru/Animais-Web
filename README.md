@@ -7,7 +7,6 @@
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
----
 
 ## 📋 Sobre o Projeto
 
@@ -20,7 +19,6 @@ Site educacional sobre animais selvagens desenvolvido com **HTML5, CSS3 e JavaSc
 - **Números**: Estatísticas animadas carregadas dinamicamente via API
 - **Contato**: Informações, mapa e cotação de Bitcoin em tempo real
 
----
 
 ## ✨ Funcionalidades
 
@@ -60,7 +58,6 @@ Site educacional sobre animais selvagens desenvolvido com **HTML5, CSS3 e JavaSc
 - Navegação por teclado funcional
 - Labels apropriados em elementos interativos
 
----
 
 ## ⚡ Performance
 
@@ -75,7 +72,6 @@ Site educacional sobre animais selvagens desenvolvido com **HTML5, CSS3 e JavaSc
 - **Lazy execution** - módulos só executam quando necessário
 - **Listeners diretos de scroll** para disparar animações assim que o usuário rola a página
 
----
 
 ## 🛠️ Tecnologias
 
@@ -89,7 +85,6 @@ Site educacional sobre animais selvagens desenvolvido com **HTML5, CSS3 e JavaSc
   - Classes e métodos modernos
 - **Git**: Controle de versão com commits semânticos
 
----
 
 ## 📱 Responsividade
 
@@ -104,7 +99,6 @@ Site educacional sobre animais selvagens desenvolvido com **HTML5, CSS3 e JavaSc
 - Menu mobile com toggle
 - Imagens adaptativas
 
----
 
 ## 📚 Aprendizados
 
@@ -120,7 +114,6 @@ Este projeto demonstra:
 - Boas práticas de acessibilidade
 - Git workflow com commits semânticos
 
----
 
 <div align="center">
 
