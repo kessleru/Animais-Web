@@ -2,7 +2,7 @@
 
 **Site interativo sobre animais selvagens** com componentes modernos, animações suaves e integração com APIs.
 
-[![Demo](https://img.shields.io/badge/🌐-Ver_Site-181717)](kessleru.github.io/Animais-Web/)
+[![Demo](https://img.shields.io/badge/🌐-Ver_Site-181717)](https://kessleru.github.io/Animais-Web/)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
