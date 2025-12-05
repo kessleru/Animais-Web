@@ -7,7 +7,6 @@
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-
 ## 📋 Sobre o Projeto
 
 Site educacional sobre animais selvagens desenvolvido com **HTML5, CSS3 e JavaScript ES6+ vanilla**. O projeto demonstra a implementação de componentes UI modernos (tabs, accordion, modal, dropdown) sem uso de frameworks, utilizando apenas tecnologias web fundamentais com foco em boas práticas e código modular.
@@ -19,10 +18,10 @@ Site educacional sobre animais selvagens desenvolvido com **HTML5, CSS3 e JavaSc
 - **Números**: Estatísticas animadas carregadas dinamicamente via API
 - **Contato**: Informações, mapa e cotação de Bitcoin em tempo real
 
-
 ## ✨ Funcionalidades
 
 ### 🎨 Interface
+
 - Design responsivo mobile-first
 - Animações suaves de entrada ao scroll
 - Menu mobile com hamburguer
@@ -30,8 +29,10 @@ Site educacional sobre animais selvagens desenvolvido com **HTML5, CSS3 e JavaSc
 - Modal de login interativo
 - Tooltips informativos
 - Dropdown menu com submenu
+- Slide/Carrossel de imagens interativo
 
 ### ⚙️ JavaScript
+
 - **Arquitetura Modular**: ES6 Modules para organização e manutenibilidade
   - `scroll-suave.js` - Navegação suave entre seções
   - `scroll-animacao.js` - Animações ativadas ao scroll
@@ -46,32 +47,35 @@ Site educacional sobre animais selvagens desenvolvido com **HTML5, CSS3 e JavaSc
   - `fetch-bitcoin.js` - Cotação do Bitcoin em tempo real
   - `anima-numeros.js` - Contador animado de estatísticas
   - `outsideclick.js` - Detecção de cliques externos
+  - `slide.js` - Carrossel de imagens com suporte a touch/mouse e navegação por controles
 
 ### 🔌 Integração com APIs
+
 - **Fetch API** para carregar dados de animais (JSON local)
 - **Mutation Observer** para observar mudanças no DOM
 - **API de Cotação Bitcoin** para exibir preço em tempo real
 
 ### ♿ Acessibilidade
+
 - Estrutura HTML semântica
 - ARIA attributes nos componentes interativos
 - Navegação por teclado funcional
 - Labels apropriados em elementos interativos
 
-
 ## ⚡ Performance
 
 ### 📦 CSS
+
 - **Arquitetura modular**: 7 arquivos CSS organizados por componente
 - **CSS Grid e Flexbox** para layouts responsivos
 - **Transitions suaves** para melhor UX
 
 ### 🎯 JavaScript
+
 - **ES6 Modules** para carregamento otimizado
 - **Event delegation** para melhor performance
 - **Lazy execution** - módulos só executam quando necessário
 - **Listeners diretos de scroll** para disparar animações assim que o usuário rola a página
-
 
 ## 🛠️ Tecnologias
 
@@ -85,24 +89,25 @@ Site educacional sobre animais selvagens desenvolvido com **HTML5, CSS3 e JavaSc
   - Classes e métodos modernos
 - **Git**: Controle de versão com commits semânticos
 
-
 ## 📱 Responsividade
 
 **Breakpoints**
+
 - Mobile: 320px+
 - Tablet: 768px+
 - Desktop: 1024px+
 
 **Técnicas**
+
 - Mobile-first approach
 - CSS Grid responsivo
 - Menu mobile com toggle
 - Imagens adaptativas
 
-
 ## 📚 Aprendizados
 
 Este projeto demonstra:
+
 - **Arquitetura JavaScript modular** com ES6 Modules
 - JavaScript vanilla para componentes complexos (sem jQuery ou frameworks)
 - Manipulação avançada do DOM
@@ -114,10 +119,10 @@ Este projeto demonstra:
 - Boas práticas de acessibilidade
 - Git workflow com commits semânticos
 
-
 <div align="center">
 
 ⭐ **Desenvolvido como projeto educacional em JavaScript vanilla**
 
 [![GitHub](https://img.shields.io/badge/GitHub-kessleru-181717?logo=github)](https://github.com/kessleru)
+
 </div>
