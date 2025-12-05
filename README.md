@@ -1,6 +1,8 @@
 # 🦊 Animais Fantásticos
 
-**Site interativo sobre animais selvagens** com componentes modernos, animações suaves e integração com APIs.
+<p align="center">
+  <img src="./img/demo.jpg" alt="Animais Preview" width="1000">
+</p>
 
 [![Demo](https://img.shields.io/badge/🌐-Ver_Site-181717)](https://kessleru.github.io/Animais-Web/)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
