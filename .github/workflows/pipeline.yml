@@ -1,0 +1,46 @@
+name: CI Pipeline (Lint & Build)
+
+# O gatilho: roda automaticamente em cada push ou pull request na branch main
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-lint:
+    # O GitHub Actions fornece o servidor (ubuntu) gratuitamente para você
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Faz o checkout do código do seu repositório
+      - name: Checkout Código
+        uses: actions/checkout@v4
+
+      # 2. Configura o Node.js no ambiente
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22' # Mesma versão que você usa localmente
+          cache: 'npm'
+
+      # 3. Estágio: Instalar Dependências
+      - name: Instalar Dependências
+        run: npm install
+
+      # 4. Estágio: Verificação (Lint)
+      - name: Verificação (Lint)
+        run: npm run lint
+
+      # 5. Estágio: Compilação (Build)
+      - name: Compilação (Build)
+        run: |
+          echo "Iniciando build com Webpack e Babel..."
+          npm run build
+
+      # Opcional: Salva o resultado do build (main.js) como um artefato no GitHub
+      - name: Upload Build Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: production-build
+          path: main.js # Ou a pasta onde o webpack gera o arquivo (ex: dist/)
